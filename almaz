@@ -1,8 +1,0 @@
-#include <stdio.h>
-
-int main () {
-    File *file = fopen("text.txt", "a");
-    fprintf(file, "\nsome new text");
-    fclose(file);
-    return 0;
-}
