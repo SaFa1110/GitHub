@@ -1,0 +1,8 @@
+#!/bin/bash
+
+name="almaz"
+echo "Привет $name"
+x=345
+y=456
+new=$(($x+$y))
+echo $new
